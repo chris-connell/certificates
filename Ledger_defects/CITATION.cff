@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+title: >-
+  Exact computational certificates for "Ledger defects, harmonic obstructions
+  for 2-Stein models, and horospherical rigidity"
+message: >-
+  If you use these certificates, please cite both the software and the
+  accompanying paper.
+type: software
+abstract: >-
+  Four self-contained Python scripts verifying, by exact arithmetic, the
+  algebraic identities of the six-dimensional 2-Stein family A^theta studied
+  in the accompanying paper. Coefficients are represented in the quotient ring
+  Z[s,c]/(s^2+c^2-1) or in Q, and every asserted identity is reduced exactly;
+  no floating-point arithmetic and no external computer algebra system is
+  used. The scripts check the curvature symmetries and both Bianchi
+  identities, the differentiated 2-Stein equations, the norm identities
+  |B|^2 = 4608 s^2 and tr(B_X^2) = 288 s^2 a b^2, the third Ledger constant
+  -2176, the cubic contractions of A^theta, and the harmonic-realizability
+  obstruction F_A = 2176 - 162 s^2 together with its directional violation
+  -162 s^2 at X = e_1.
+authors:
+  - given-names: Chris
+    family-names: Connell
+    email: connell@indiana.edu
+    affiliation: Department of Mathematics, Indiana University, Bloomington, Indiana, USA
+    # orcid: 'https://orcid.org/0000-0000-0000-0000'
+  - given-names: Hemangi Madhusudan
+    family-names: Shah
+    email: hemangimshah@hri.res.in
+    affiliation: Harish-Chandra Research Institute, HBNI, Prayagraj, India
+    # orcid: 'https://orcid.org/0000-0000-0000-0000'
+license: MIT
+version: 1.0.0
+date-released: '2026-09-02'
+repository-code: 'https://github.com/chris-connell/certificates'
+keywords:
+  - harmonic manifold
+  - Ledger equations
+  - 2-Stein curvature tensor
+  - Jacobi operator
+  - algebraic curvature tensor
+  - Osserman
+  - exact arithmetic
+  - computational certificate
+preferred-citation:
+  type: article
+  title: >-
+    Ledger defects, harmonic obstructions for 2-Stein models, and horospherical
+    rigidity
+  authors:
+    - given-names: Chris
+      family-names: Connell
+      affiliation: Indiana University, Bloomington, USA
+    - given-names: Hemangi Madhusudan
+      family-names: Shah
+      affiliation: Harish-Chandra Research Institute, HBNI, Prayagraj, India
+  year: 2026
+  # Fill in once the preprint is posted, then delete this comment:
+  # url: 'https://arxiv.org/abs/XXXX.XXXXX'
+  # identifiers:
+  #   - type: other
+  #     value: 'arXiv:XXXX.XXXXX'
+  #     description: arXiv preprint

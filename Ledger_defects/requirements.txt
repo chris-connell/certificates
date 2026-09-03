@@ -1,0 +1,14 @@
+# Dependencies for the exact certificates.
+#
+# Three of the four scripts use only the Python standard library.  NumPy is
+# needed by completion_exact_certificate.py alone, for the integer array
+# bookkeeping in the 720-column constraint matrix and its rank computation.
+# All arithmetic there is exact: integer arrays modulo a prime, then a lifted
+# rational kernel verified with Python's arbitrary-precision integers.  NumPy
+# is never used for floating-point work.
+#
+# Requires Python 3.9 or later (math.lcm).
+#
+#     python3 -m pip install -r requirements.txt
+
+numpy>=1.21
